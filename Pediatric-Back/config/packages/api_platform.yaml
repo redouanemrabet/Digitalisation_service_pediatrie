@@ -1,0 +1,12 @@
+api_platform:
+    title: 'CHU API'
+    description: 'Rest API for the CHU Oujda Project'
+    version: '0.1'
+    defaults:
+        pagination_enabled: false
+    swagger:
+        versions: [3]
+        api_keys:
+            JWT:
+                name: Authorization
+                type: header

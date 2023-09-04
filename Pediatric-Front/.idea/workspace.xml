@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e2a31be-0924-4e6a-b72b-dcd55e07ac10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/MiaLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/document/AJOUTERFMEDICALE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/document/CameraImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/document/goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/document/medical.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/add-patient/ImpressionPatientIdentite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/AntiFamiliaux/InitialiseAntiFamiliaux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/AntiFamiliaux/UpdateAntiFamiliaux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/AntiPersonnel/InitialiseAntiPersonnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/AntiPersonnel/UpdateAntiPersonnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Courbe/Courbe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Courbe/filleCourbe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Courbe/garconCourbe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DiagnosticRetenuPEC/IntialiseDiagnosticRetenuPEC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DiagnosticRetenuPEC/UpdateDiagnosticRetenuPEC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Document/Upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Document/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DocumentSup/AddDocument.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DocumentSup/Camera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DocumentSup/UploadFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DocumentSup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DossierComplet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/ExamenPhysique/InitialiseExamenPhysique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/ExamenPhysique/UpdateExamenPhysique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Paraclinique/InitialiseParaclinique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Paraclinique/UpdateParaclinique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Suivi/InitialiseSuivi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Suivi/UpdateSuivi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/medcin/Medcins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/MedcinService/deleteMedcinApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/MedcinService/getAllMedcinsApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/AddDossiers/AddDossierApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/AddDossiers/getAllDossierApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/AddDossiers/getAllDossiersPatientApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/AddDossiers/getDossiersByPatientApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/AddDossiers/getFormByDossierApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/AddDossiers/initilaiseFormsApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/Courbe-api/addCourbeApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/Courbe-api/getAllCourbeByDossierApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/Courbe-api/updateCourbeApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/Document/addDocumentApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/anti-familiaux-api/addAntiFamiliauxApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/anti-familiaux-api/deleteAntiFamiliauxApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/anti-familiaux-api/getAntiFamiliauxApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/anti-familiaux-api/updateAntiFamiliauxApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/anti-personnel-api/addAntiPersonnelApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/anti-personnel-api/deleteAnitPersonnelApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/anti-personnel-api/getAntiFamiliauxApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/anti-personnel-api/updateAntiPersonnelApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/diagnostic-retenu-pec/addDiagnosticRetenuPecApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/diagnostic-retenu-pec/deleteDiagnosticRetenuPecApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/diagnostic-retenu-pec/getDiagnosticRetenuPecApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/diagnostic-retenu-pec/updateDiagnosticRetenuPecApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/examen-physique-api/addExamenPhysiqueApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/examen-physique-api/deleteExamenPhysiqueApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/examen-physique-api/getExamenPhysiqueApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/examen-physique-api/updateExamenPhysiqueApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/paraclinique-api/addParacliniqueApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/paraclinique-api/deleteParacliniqueApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/paraclinique-api/getParacliniqueApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/paraclinique-api/updateParacliniqueApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/suivi-api/addSuiviApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/suivi-api/deleteSuiviApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/suivi-api/getAllSuiviApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/suivi-api/getSuiviApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/dossiers-vert-service/suivi-api/updateSuiviApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PatientService/identite-api/getPatientByIp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/PatientIdentiteSlice/getAllDossiersPatientSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/dossier-vert-slices/anti-familiaux-slices/addAntiFamiliauxSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu-items/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu-items/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu-items/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu-items/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/add-dossier-patient/AddDossierPatient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/add-dossier-patient/AddDossierPatient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/add-patient/AddPatientIdentite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/add-patient/AddPatientIdentite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/add-patient/UpdatePatientIdentite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/add-patient/UpdatePatientIdentite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dossier-vert/AntiFamiliaux/AntiFamiliaux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dossier-vert/AntiFamiliaux/AntiFamiliaux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dossier-vert/AntiPersonnel/AntiPersonnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dossier-vert/AntiPersonnel/AntiPersonnel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dossier-vert/DiagnosticRetenuPEC/DiagnosticRetenuPEC.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DiagnosticRetenuPEC/DiagnosticRetenuPEC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dossier-vert/DossierVertStructure/AddInformationPatient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dossier-vert/DossierVertStructure/DossierVertStructure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dossier-vert/DossierVertStructure/DossierVertStructure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dossier-vert/ExamenPhysique/ExamenPhysique.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dossier-vert/ExamenPhysique/ExamenPhysique.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dossier-vert/Paraclinique/Paraclinique.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Paraclinique/Paraclinique.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dossier-vert/Suivi/Suivi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dossier-vert/Suivi/Suivi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/patient/DeletePatient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/patient/DeletePatient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/patient/Patiens.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/patient/Patiens.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/patient/PatientDossiers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/patient/PatientDossiers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/patient/UpdatePatient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/patient/UpdatePatient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/MainRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/MainRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/PatientService/addPatientApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PatientService/identite-api/addPatientIdentiteApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/PatientService/deletePatientApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PatientService/identite-api/deletePatientApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/PatientService/getAllPatientsApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PatientService/identite-api/getAllPatientsApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/PatientService/getPatientApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PatientService/identite-api/getPatientApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/PatientService/updatePatientApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PatientService/identite-api/updatePatientApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/slices/PatientSlice/addPatientSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/PatientIdentiteSlice/addPatientSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/slices/PatientSlice/deletePatientSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/PatientIdentiteSlice/deletePatientSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/slices/PatientSlice/getPatientSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/PatientIdentiteSlice/getPatientSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/slices/PatientSlice/getPatientsSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/PatientIdentiteSlice/getPatientsSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/slices/PatientSlice/updatePatientSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/PatientIdentiteSlice/updatePatientSlice.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aacb4e2a-8743-4d83-9897-03d7917055a5" />
+        <option name="url" value="https://github.com/Rachid03/PediatricGeneral-Front.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2POAaIkPG9eay9Ku1T4LqgxVSaR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/Projet_PFA/Front-End/chu-front/src/assets/images/users&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Lenovo\\Desktop\\Projet_PFA\\Front-End\\chu-front\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Lenovo\\Desktop\\Projet_PFA\\Front-End\\chu-front\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\Projet_PFA\Front-End\chu-front\src\assets\images\users" />
+      <recent name="C:\Users\Lenovo\Desktop\Projet_PFA\Front-End\chu-front\src\pages\dossier-vert\AntiFamiliaux" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\Projet_PFA\Front-End\chu-front\src\assets\images\document" />
+      <recent name="C:\Users\Lenovo\Desktop\Projet_PFA\Front-End\chu-front\src\assets\images" />
+      <recent name="C:\Users\Lenovo\Desktop\Projet_PFA\Front-End\chu-front\src\services\PatientService" />
+      <recent name="C:\Users\Lenovo\Desktop\Projet_PFA\Front-End\chu-front\src\services\PatientService\dossiers-vert-service" />
+      <recent name="C:\Users\Lenovo\Desktop\Projet_PFA\Front-End\chu-front\src\services\PatientService\identite-api" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="useGetDossiersByPatientQuery" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e2a31be-0924-4e6a-b72b-dcd55e07ac10" name="Changes" comment="" />
+      <created>1683317819138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683317819138</updated>
+      <workItem from="1683317827840" duration="4572000" />
+      <workItem from="1684007857966" duration="633000" />
+      <workItem from="1686128652614" duration="657000" />
+      <workItem from="1686322220869" duration="431000" />
+      <workItem from="1686327651968" duration="144000" />
+      <workItem from="1686328123122" duration="1949000" />
+      <workItem from="1686486838934" duration="2118000" />
+      <workItem from="1686497980810" duration="5467000" />
+      <workItem from="1686503935164" duration="606000" />
+      <workItem from="1686507060192" duration="1405000" />
+      <workItem from="1686509270860" duration="523000" />
+      <workItem from="1686512082253" duration="639000" />
+      <workItem from="1686512993554" duration="3749000" />
+      <workItem from="1686517179581" duration="489000" />
+      <workItem from="1686517915688" duration="1156000" />
+      <workItem from="1686571791596" duration="11657000" />
+      <workItem from="1686585510623" duration="8299000" />
+      <workItem from="1686650208461" duration="16208000" />
+      <workItem from="1686678862273" duration="1924000" />
+      <workItem from="1686734975512" duration="713000" />
+      <workItem from="1686735988447" duration="7697000" />
+      <workItem from="1686744052216" duration="23800000" />
+      <workItem from="1686819756864" duration="9402000" />
+      <workItem from="1686830209346" duration="8577000" />
+      <workItem from="1686860774337" duration="2536000" />
+      <workItem from="1686908482460" duration="25178000" />
+      <workItem from="1686994374315" duration="9051000" />
+      <workItem from="1687078661047" duration="26259000" />
+      <workItem from="1687167549302" duration="14939000" />
+      <workItem from="1687255966119" duration="3541000" />
+      <workItem from="1687259638124" duration="23489000" />
+      <workItem from="1687425710672" duration="51919000" />
+      <workItem from="1687555817755" duration="3021000" />
+      <workItem from="1687595094839" duration="37468000" />
+      <workItem from="1687685102091" duration="9012000" />
+      <workItem from="1687696137048" duration="2315000" />
+      <workItem from="1687721570039" duration="1241000" />
+      <workItem from="1687764577234" duration="11557000" />
+      <workItem from="1687946938185" duration="4921000" />
+      <workItem from="1688156095211" duration="8455000" />
+      <workItem from="1688206815263" duration="10259000" />
+      <workItem from="1688297740458" duration="527000" />
+      <workItem from="1688310508729" duration="5921000" />
+      <workItem from="1688568964234" duration="274000" />
+      <workItem from="1688569650205" duration="19845000" />
+      <workItem from="1688593941096" duration="9580000" />
+      <workItem from="1688632235750" duration="42998000" />
+      <workItem from="1688717251147" duration="13032000" />
+      <workItem from="1688815356609" duration="21500000" />
+      <workItem from="1688895045585" duration="1167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

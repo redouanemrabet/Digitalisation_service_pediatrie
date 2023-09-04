@@ -1,0 +1,77 @@
+version: "3.4"
+
+services:
+  php:
+    build:
+      context: .
+      target: app_php
+      args:
+        SYMFONY_VERSION: ${SYMFONY_VERSION:-}
+        STABILITY: ${STABILITY:-stable}
+    restart: unless-stopped
+    volumes:
+      - php_socket:/var/run/php
+      - vendor:/srv/app/vendor
+      - var:/srv/app/var
+    healthcheck:
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 30s
+    environment:
+      DATABASE_URL: mysql://chu:chu@database:3306/chu?serverVersion=8-oracle&charset=utf8mb4
+      MERCURE_URL: ${CADDY_MERCURE_URL:-http://caddy/.well-known/mercure}
+      MERCURE_PUBLIC_URL: https://${SERVER_NAME:-localhost}/.well-known/mercure
+      MERCURE_JWT_SECRET: ${CADDY_MERCURE_JWT_SECRET:-!ChangeThisMercureHubJWTSecretKey!}
+
+  caddy:
+    build:
+      context: .
+      target: app_caddy
+    depends_on:
+      - php
+    environment:
+      SERVER_NAME: ${SERVER_NAME:-localhost, caddy:80}
+      MERCURE_PUBLISHER_JWT_KEY: ${CADDY_MERCURE_JWT_SECRET:-!ChangeThisMercureHubJWTSecretKey!}
+      MERCURE_SUBSCRIBER_JWT_KEY: ${CADDY_MERCURE_JWT_SECRET:-!ChangeThisMercureHubJWTSecretKey!}
+    restart: unless-stopped
+    volumes:
+      - php_socket:/var/run/php
+      - caddy_data:/data
+      - caddy_config:/config
+    ports:
+      # HTTP
+      - target: 80
+        published: 8080
+        protocol: tcp
+      # HTTPS
+      - target: 443
+        published: 4430
+        protocol: tcp
+      # HTTP/3
+      - target: 443
+        published: 4430
+        protocol: udp
+
+  database:
+    image: mysql:${MYSQL_VERSION:-8-oracle}
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-chu}
+      # You should definitely change the password in production
+      MYSQL_USER: ${MYSQL_USER:-chu}
+      
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-chu}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root}
+    volumes:
+      - database_data:/var/lib/mysql
+
+volumes:
+  php_socket:
+  caddy_data:
+  caddy_config:
+  database_data:
+  vendor:
+  var:
